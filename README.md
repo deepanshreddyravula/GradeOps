@@ -454,6 +454,6 @@ Authorization: Bearer <JWT_TOKEN>
 # 👨‍💻 Author
 
 ### Deepansh Reddy
+### Bhaskar Reddy
 
-GradeOps was built to modernize academic evaluation using OCR, AI-powered grading, secure authentication, and scalable cloud technologies.Contributed by Bhaskar Reddy
-Another update
+GradeOps was built to modernize academic evaluation using OCR, AI-powered grading, secure authentication, and scalable cloud technologies.
