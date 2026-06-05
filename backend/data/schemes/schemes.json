@@ -1,0 +1,212 @@
+[
+  {
+    "id": "7c891412-e975-47ad-8129-4f2b7eb687ac",
+    "scheme_id": "91478b8a-e235-425c-9e74-7601d35c4999",
+    "exam_id": "1",
+    "uploaded_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "exam_name": "Introduction to Computer Science",
+    "total_marks": 30.0,
+    "questions": [
+      {
+        "question_no": 1,
+        "max_marks": 10.0,
+        "expected_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "keywords": [
+          "operating system",
+          "hardware",
+          "software",
+          "resources",
+          "kernel",
+          "interface"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 2,
+        "max_marks": 10.0,
+        "expected_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data",
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "keywords": [
+          "RAM",
+          "volatile",
+          "memory",
+          "temporary",
+          "random access",
+          "primary storage"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 3,
+        "max_marks": 10.0,
+        "expected_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "keywords": [
+          "CPU",
+          "processor",
+          "ALU",
+          "control unit",
+          "instructions",
+          "clock speed",
+          "GHz",
+          "fetch",
+          "decode"
+        ],
+        "strictness": "medium"
+      }
+    ],
+    "created_at": "2026-06-04T17:18:02.686988+00:00"
+  },
+  {
+    "id": "ea248c75-22c6-4349-bb94-c142a14dd6e5",
+    "scheme_id": "6a8c241e-46f1-4be3-8ecd-66f2d0241dab",
+    "exam_id": "1",
+    "uploaded_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "exam_name": "Introduction to Computer Science",
+    "total_marks": 30.0,
+    "questions": [
+      {
+        "question_no": 1,
+        "max_marks": 10.0,
+        "expected_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "keywords": [
+          "operating system",
+          "hardware",
+          "software",
+          "resources",
+          "kernel",
+          "interface"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 2,
+        "max_marks": 10.0,
+        "expected_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data",
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "keywords": [
+          "RAM",
+          "volatile",
+          "memory",
+          "temporary",
+          "random access",
+          "primary storage"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 3,
+        "max_marks": 10.0,
+        "expected_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "keywords": [
+          "CPU",
+          "processor",
+          "ALU",
+          "control unit",
+          "instructions",
+          "clock speed",
+          "GHz",
+          "fetch",
+          "decode"
+        ],
+        "strictness": "medium"
+      }
+    ],
+    "created_at": "2026-06-05T03:39:52.270453+00:00"
+  },
+  {
+    "id": "389ef8b7-d73d-4801-81d6-4545441d6a6d",
+    "scheme_id": "d14f47d6-5831-40a5-b520-5f66baf0ee8d",
+    "exam_id": "2",
+    "uploaded_by": "503d2040-dcfd-4b04-8240-b78bbc102156",
+    "exam_name": "Introduction to Computer Science",
+    "total_marks": 30.0,
+    "questions": [
+      {
+        "question_no": 1,
+        "max_marks": 10.0,
+        "expected_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "keywords": [
+          "operating system",
+          "hardware",
+          "software",
+          "resources",
+          "kernel",
+          "interface"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 2,
+        "max_marks": 10.0,
+        "expected_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data",
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "keywords": [
+          "RAM",
+          "volatile",
+          "memory",
+          "temporary",
+          "random access",
+          "primary storage"
+        ],
+        "strictness": "medium"
+      },
+      {
+        "question_no": 3,
+        "max_marks": 10.0,
+        "expected_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "keywords": [
+          "CPU",
+          "processor",
+          "ALU",
+          "control unit",
+          "instructions",
+          "clock speed",
+          "GHz",
+          "fetch",
+          "decode"
+        ],
+        "strictness": "medium"
+      }
+    ],
+    "created_at": "2026-06-05T04:40:26.156734+00:00"
+  }
+]

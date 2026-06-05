@@ -1,0 +1,17 @@
+fastapi[standard]
+uvicorn
+transformers
+torch
+torchvision
+pillow
+pymupdf
+python-multipart
+accelerate
+python-jose
+passlib[bcrypt]
+pydantic[email]
+python-dotenv
+google-genai
+pymongo
+paddleocr
+paddlepaddle

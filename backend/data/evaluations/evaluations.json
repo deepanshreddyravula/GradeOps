@@ -1,0 +1,277 @@
+[
+  {
+    "id": "aeda2b4a-dd27-434b-90a1-477c68e5f14c",
+    "submission_id": "0136116a-b0e8-449a-871c-b13565f1cc9c",
+    "scheme_id": "91478b8a-e235-425c-9e74-7601d35c4999",
+    "exam_id": "1",
+    "student_id": "1",
+    "evaluated_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "extracted_text": "ANSWER SHEET\nStudent Name : Alex Johnson\nStudent ID : STU001\nExam\n: Introduction to Computer Science\nDate\n: 18 May 2026\nQuestion 1 (10 marks)\nWhat is an Operating System? Give examples.\nAn operating system is system software that manages the hardware\nand software resources of a computer. It provides an interface\nbetween the user and the computer hardware. Common examples of\noperating systems are Windows,Linux, and macOS.\nQuestion 2 (10 marks)\nDefine RAM. Explain its role and key characteristics.\nRAM is Random Access Memory.It is used by the computer to\nstore data and programs that are currently in use. RAM is\ntemporary storage \u00b7the data is lost when the computer is\nswitched off.\nQuestion 3 (10 marks)\nDescribe the role of the CPU in a computer system.\n[No answer provided]",
+    "total_score": 17.5,
+    "max_score": 30.0,
+    "percentage": 58.33,
+    "question_wise": [
+      {
+        "question_no": 1,
+        "awarded_marks": 10.0,
+        "max_marks": 10.0,
+        "matched_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "missing_points": [],
+        "reasoning": "Student correctly defined an OS, its function, and provided relevant examples comprehensively."
+      },
+      {
+        "question_no": 2,
+        "awarded_marks": 7.5,
+        "max_marks": 10.0,
+        "matched_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data"
+        ],
+        "missing_points": [
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "reasoning": "Student defined RAM, its volatility, and role, but missed the point about multitasking capability."
+      },
+      {
+        "question_no": 3,
+        "awarded_marks": 0.0,
+        "max_marks": 10.0,
+        "matched_points": [],
+        "missing_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "reasoning": "No answer was provided for this question."
+      }
+    ],
+    "overall_reasoning": "The student demonstrated a good understanding of Operating Systems and RAM but failed to answer the question regarding CPU.",
+    "created_at": "2026-06-04T17:18:45.992031+00:00"
+  },
+  {
+    "id": "ffe9a314-e702-4630-be98-95bca53bbf71",
+    "submission_id": "da4c57cb-d91f-4959-816e-c6f21ebafb6a",
+    "scheme_id": "91478b8a-e235-425c-9e74-7601d35c4999",
+    "exam_id": "1",
+    "student_id": "1",
+    "evaluated_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "extracted_text": "ANSWER SHEET\nStudentName:Alex Johnson\nStudentID\uff1aSTU001\nExam: Introduction to Computer Science\nDate: 18 May 2026\nQuestion 1(10 marks)\nWhat is an Operating System? Give examples.\nAn operating system is system software that manages the hardware\nand software resources of a computer. It provides an interface\nbetween the user and the computer hardware. Common examples\nof operating systems are Windows, Linux, and macOS.\nQuestion 2(10 marks)\nDefine RAM. Explain its role and key characteristics.\nRAM is Random'Access Memory. It is used by the computer to store\ndata and programs that are currently in use. 'RAM is temporary storage\nthe data is lost when the computer is switched off.\nQuestion 3 (10 marks)\n[No answer provided]",
+    "total_score": 17.5,
+    "max_score": 30.0,
+    "percentage": 58.33,
+    "question_wise": [
+      {
+        "question_no": 1,
+        "awarded_marks": 10.0,
+        "max_marks": 10.0,
+        "matched_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "missing_points": [],
+        "reasoning": "Comprehensive answer covering definition, resource management, user interface, and correct examples."
+      },
+      {
+        "question_no": 2,
+        "awarded_marks": 7.5,
+        "max_marks": 10.0,
+        "matched_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data"
+        ],
+        "missing_points": [
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "reasoning": "Correctly defined RAM, its purpose, and volatility, but missed explaining the impact of more RAM."
+      },
+      {
+        "question_no": 3,
+        "awarded_marks": 0.0,
+        "max_marks": 10.0,
+        "matched_points": [],
+        "missing_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "reasoning": "No answer was provided for this question, resulting in zero marks."
+      }
+    ],
+    "overall_reasoning": "Student provided good answers for Question 1 and Question 2, covering most points. Question 3 was left unanswered.",
+    "created_at": "2026-06-04T18:09:02.738477+00:00"
+  },
+  {
+    "id": "e5c7f25c-1e64-4484-8b08-d956f7e8a848",
+    "submission_id": "963594e2-6c39-4682-a726-7e654e198399",
+    "scheme_id": "6a8c241e-46f1-4be3-8ecd-66f2d0241dab",
+    "exam_id": "1",
+    "student_id": "1",
+    "evaluated_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "extracted_text": "ANSWER SHEET\nStudent Name : Alex Johnson\nStudent ID : STU001\nExam\n:Introduction to Computer Science\nDate\n:18May 2026\nQuestion 1 (10 marks)\nWhat is an Operating System? Give examples.\nAn operating system is system software that manages the hardware\nand software resources of a computer. It provides an interface\nbetween the user and the computer hardware. Common examples of\noperating systems are Windows,Linux,and macOS.\nQuestion 2 (10 marks)\nDefine RAM. Explain its role and key characteristics.\nRAM is Random Access Memory. It is used by the computer to\nstore data and programs that are currently in use.RAM is\ntemporary storage \u00b7 the data is lost when the computer is\nswitched off.\nQuestion 3 (10 marks)\nDescribe the role of the CPU in a computer system.\n[No answer provided]",
+    "total_score": 16.5,
+    "max_score": 30.0,
+    "percentage": 55.0,
+    "question_wise": [
+      {
+        "question_no": 1,
+        "awarded_marks": 9.0,
+        "max_marks": 10.0,
+        "matched_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "missing_points": [],
+        "reasoning": "Student accurately defined OS, its resource management, user interface role, and provided correct examples."
+      },
+      {
+        "question_no": 2,
+        "awarded_marks": 7.5,
+        "max_marks": 10.0,
+        "matched_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data"
+        ],
+        "missing_points": [
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "reasoning": "Student defined RAM, its purpose, and volatility, but missed the point about simultaneous programs."
+      },
+      {
+        "question_no": 3,
+        "awarded_marks": 0.0,
+        "max_marks": 10.0,
+        "matched_points": [],
+        "missing_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "reasoning": "No answer was provided for this question, resulting in zero marks."
+      }
+    ],
+    "overall_reasoning": "Alex provided strong answers for Q1 and Q2, covering most key points. No answer for Q3 significantly reduced the total score.",
+    "created_at": "2026-06-05T03:40:33.691495+00:00"
+  },
+  {
+    "id": "026d1b36-3ef8-4276-b5b0-dba3aad6e355",
+    "submission_id": "df11d684-ffd7-4d55-95a7-1d4e761b6254",
+    "scheme_id": "6a8c241e-46f1-4be3-8ecd-66f2d0241dab",
+    "exam_id": "1",
+    "student_id": "1",
+    "evaluated_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "extracted_text": "ANSWER SHEET\nStudentName:Alex Johnson\nStudentID\uff1aSTU001\nExam: Introduction to Computer Science\nDate: 18 May 2026\nQuestion 1(10 marks)\nWhat is an Operating System? Give examples.\nAn operating system is system software that manages the hardware\nand software resources of a computer. It provides an interface\nbetween the user and the computer hardware. Common examples\nof operating systems are Windows, Linux, and macOS.\nQuestion 2(10 marks)\nDefine RAM. Explain its role and key characteristics.\nRAM is Random'Access Memory. It is used by the computer to store\ndata and programs that are currently in use. 'RAM is temporary storage\nthe data is lost when the computer is switched off.\nQuestion 3 (10 marks)\n[No answer provided]",
+    "total_score": 17.5,
+    "max_score": 30.0,
+    "percentage": 58.33,
+    "question_wise": [
+      {
+        "question_no": 1,
+        "awarded_marks": 10.0,
+        "max_marks": 10.0,
+        "matched_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "missing_points": [],
+        "reasoning": "Student provided a complete and accurate definition of an OS with correct examples."
+      },
+      {
+        "question_no": 2,
+        "awarded_marks": 7.5,
+        "max_marks": 10.0,
+        "matched_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data"
+        ],
+        "missing_points": [
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "reasoning": "Answer correctly defines RAM, its volatile nature, and primary role, but misses one key characteristic."
+      },
+      {
+        "question_no": 3,
+        "awarded_marks": 0.0,
+        "max_marks": 10.0,
+        "matched_points": [],
+        "missing_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "reasoning": "No answer was provided for this question; therefore, no marks can be awarded."
+      }
+    ],
+    "overall_reasoning": "Alex demonstrated good understanding in Q1 and most of Q2, but left Q3 unanswered, impacting the overall score.",
+    "created_at": "2026-06-05T03:42:19.473656+00:00"
+  },
+  {
+    "id": "5ce5126d-0d59-45e2-bf93-38daeafab4c2",
+    "submission_id": "78a4e13a-26a3-491b-b487-d2af52782f09",
+    "scheme_id": "14065f4f-331f-499c-a935-2139b8d10c58",
+    "exam_id": "1",
+    "student_id": "2",
+    "evaluated_by": "503d2040-dcfd-4b04-8240-b78bbc102156",
+    "extracted_text": "ANSWER SHEET\nStudent Name : Alex Johnson\nStudent ID : STU001\nExam\n:Introduction to Computer Science\nDate\n:18May 2026\nQuestion 1 (10 marks)\nWhat is an Operating System? Give examples.\nAn operating system is system software that manages the hardware\nand software resources of a computer. It provides an interface\nbetween the user and the computer hardware. Common examples of\noperating systems are Windows,Linux,and macOS.\nQuestion 2 (10 marks)\nDefine RAM. Explain its role and key characteristics.\nRAM is Random Access Memory. It is used by the computer to\nstore data and programs that are currently in use.RAM is\ntemporary storage \u00b7 the data is lost when the computer is\nswitched off.\nQuestion 3 (10 marks)\nDescribe the role of the CPU in a computer system.\n[No answer provided]",
+    "total_score": 17.5,
+    "max_score": 30.0,
+    "percentage": 58.33,
+    "question_wise": [
+      {
+        "question_no": 1,
+        "awarded_marks": 10.0,
+        "max_marks": 10.0,
+        "matched_points": [
+          "An operating system manages hardware and software resources",
+          "It provides a user interface and services for application programs",
+          "Examples include Windows, Linux, and macOS"
+        ],
+        "missing_points": [],
+        "reasoning": "All expected points regarding OS definition, interface, and examples are covered."
+      },
+      {
+        "question_no": 2,
+        "awarded_marks": 7.5,
+        "max_marks": 10.0,
+        "matched_points": [
+          "RAM stands for Random Access Memory",
+          "It is volatile \u2014 data is lost when power is removed",
+          "RAM stores currently running programs and active data"
+        ],
+        "missing_points": [
+          "More RAM allows more programs to run simultaneously"
+        ],
+        "reasoning": "Student defined RAM, its volatile nature, and role. Missed the point on multi-tasking capacity."
+      },
+      {
+        "question_no": 3,
+        "awarded_marks": 0.0,
+        "max_marks": 10.0,
+        "matched_points": [],
+        "missing_points": [
+          "The CPU (Central Processing Unit) fetches, decodes, and executes instructions",
+          "It contains the ALU (Arithmetic Logic Unit) for calculations",
+          "The Control Unit coordinates all CPU operations",
+          "Clock speed in GHz measures how many cycles per second the CPU performs"
+        ],
+        "reasoning": "No answer was provided for this question."
+      }
+    ],
+    "overall_reasoning": "Student performed well on Q1, partially answered Q2, and provided no answer for Q3.",
+    "created_at": "2026-06-05T04:50:06.519780+00:00"
+  }
+]
