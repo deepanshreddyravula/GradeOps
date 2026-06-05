@@ -455,4 +455,4 @@ Authorization: Bearer <JWT_TOKEN>
 
 ### Deepansh Reddy
 
-GradeOps was built to modernize academic evaluation using OCR, AI-powered grading, secure authentication, and scalable cloud technologies.
+GradeOps was built to modernize academic evaluation using OCR, AI-powered grading, secure authentication, and scalable cloud technologies.Contributed by Bhaskar Reddy
