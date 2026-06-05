@@ -1,0 +1,50 @@
+[
+  {
+    "id": "9efbae8b-308c-4c0d-a809-c372e1337a4f",
+    "exam_id": "PHY101_MIDSEM_2026",
+    "title": "Physics Midsem 2026",
+    "subject": "Physics",
+    "description": "Quantum numbers and spectroscopy",
+    "total_marks": 20.0,
+    "uploaded_by": "d3776e24-120d-4b88-860f-68b5fa963d28",
+    "scheme_id": "46a756b6-f121-4348-8762-6a58ef0bbdaa",
+    "is_active": true,
+    "created_at": "2026-04-18T22:09:11.493090+00:00"
+  },
+  {
+    "id": "94d2dfa8-a8d0-4497-b95d-96358d13a289",
+    "exam_id": "PHY101_MIDSEM_2025",
+    "title": "Physics Midsem 2025",
+    "subject": "Physics",
+    "description": "Quantum numbers and spectroscopy",
+    "total_marks": 20.0,
+    "uploaded_by": "d3776e24-120d-4b88-860f-68b5fa963d28",
+    "scheme_id": "af90a9ea-00e6-4257-9ffe-81712b684f62",
+    "is_active": true,
+    "created_at": "2026-04-19T05:28:43.558558+00:00"
+  },
+  {
+    "id": "fb564cd3-98f0-474a-a809-2675f214d5d2",
+    "exam_id": "PHY101_MIDSEM_2023",
+    "title": "PHY101_MIDSEM_2023",
+    "subject": "Physics",
+    "description": "Exam",
+    "total_marks": 100.0,
+    "uploaded_by": "d3776e24-120d-4b88-860f-68b5fa963d28",
+    "scheme_id": "106d7b19-c986-455b-95bf-16ccd6824fcb",
+    "is_active": true,
+    "created_at": "2026-05-18T07:50:19.691748+00:00"
+  },
+  {
+    "id": "5b3ff6c2-c032-41d3-926f-8657c6739a25",
+    "exam_id": "1",
+    "title": "testing",
+    "subject": "os",
+    "description": "testing exam",
+    "total_marks": 30.0,
+    "uploaded_by": "fd6e005c-733a-4922-8623-53f0c1eff20d",
+    "scheme_id": "6a8c241e-46f1-4be3-8ecd-66f2d0241dab",
+    "is_active": true,
+    "created_at": "2026-06-04T11:44:02.406169+00:00"
+  }
+]
