@@ -21,7 +21,7 @@ def _parse_scheme_bytes(file_bytes: bytes, filename: str) -> dict:
 
 
 def upload_marking_scheme(exam_id: str, uploaded_by: str, file_bytes: bytes, filename: str = ""):
-    exam = get_exam_by_exam_id(exam_id)
+    exam = get_exam_by_exam_id(exam_id,uploaded_by)
     if not exam:
         return None, "Exam not found"
 

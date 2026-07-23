@@ -1,6 +1,8 @@
 from datetime import datetime, timezone
 import uuid
 
+from sympy import use
+
 from app.database import db
 
 submissions_collection = db.submissions
@@ -37,11 +39,12 @@ def get_submission_by_id(submission_id: str):
     return submission
 
 
-def list_submissions_by_exam(exam_id: str):
+def list_submissions_by_exam(exam_id: str ,user_id : str):
 
     submissions = list(
         submissions_collection.find({
-            "exam_id": exam_id
+            "exam_id": exam_id,
+            "uploaded_by":user_id
         })
     )
 
@@ -51,11 +54,12 @@ def list_submissions_by_exam(exam_id: str):
     return submissions
 
 
-def list_submissions_by_student(student_id: str):
+def list_submissions_by_student(student_id: str,user_id : str):
 
     submissions = list(
         submissions_collection.find({
-            "student_id": student_id
+            "student_id": student_id,
+            "uploaded_by":user_id
         })
     )
 

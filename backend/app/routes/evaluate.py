@@ -41,7 +41,7 @@ async def grade_answer_sheet(
     answer_sheet: UploadFile = File(...),
     current_user: dict = Depends(get_current_instructor)
 ):
-    scheme = get_scheme_by_exam_id(exam_id)
+    scheme = get_scheme_by_exam_id(exam_id,current_user["id"])
     if not scheme:
         raise HTTPException(status_code=404, detail="No marking scheme found for this exam")
 

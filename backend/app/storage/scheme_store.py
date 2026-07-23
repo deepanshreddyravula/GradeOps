@@ -24,22 +24,23 @@ def create_scheme(exam_id: str, uploaded_by: str, scheme_data: dict):
     return new_scheme
 
 
-def get_scheme_by_scheme_id(scheme_id: str):
+# def get_scheme_by_scheme_id(scheme_id: str):
 
-    scheme = schemes_collection.find_one({
-        "scheme_id": scheme_id
-    })
+#     scheme = schemes_collection.find_one({
+#         "scheme_id": scheme_id
+#     })
 
-    if scheme:
-        scheme.pop("_id", None)
+#     if scheme:
+#         scheme.pop("_id", None)
 
-    return scheme
+#     return scheme
 
 
-def get_scheme_by_exam_id(exam_id: str):
+def get_scheme_by_exam_id(exam_id: str,user_id: str):
 
     scheme = schemes_collection.find_one(
-        {"exam_id": exam_id},
+        {"exam_id": exam_id,
+         "uploaded_by": user_id},
         sort=[("created_at", -1)]
     )
 

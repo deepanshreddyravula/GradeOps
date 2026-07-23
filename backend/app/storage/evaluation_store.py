@@ -29,11 +29,12 @@ def create_evaluation(data: dict):
     return new_eval
 
 
-def list_evaluations_by_exam(exam_id: str):
+def list_evaluations_by_exam(exam_id: str,user_id: str):
 
     evaluations = list(
         evaluations_collection.find({
-            "exam_id": exam_id
+            "exam_id": exam_id,
+            "evaluated_by" : user_id
         })
     )
 
@@ -43,11 +44,12 @@ def list_evaluations_by_exam(exam_id: str):
     return evaluations
 
 
-def list_evaluations_by_student(student_id: str):
+def list_evaluations_by_student(student_id: str,user_id: str):
 
     evaluations = list(
         evaluations_collection.find({
-            "student_id": student_id
+            "student_id": student_id,
+            "evaluated_by" : user_id
         })
     )
 

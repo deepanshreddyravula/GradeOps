@@ -33,10 +33,11 @@ def create_exam(data: dict):
     return new_exam
 
 
-def get_exam_by_exam_id(exam_id: str):
+def get_exam_by_exam_id(exam_id: str,user_id: str):
 
     exam = exams_collection.find_one({
-        "exam_id": exam_id
+        "exam_id": exam_id,
+        "uploaded_by" : user_id
     })
 
     if exam:
