@@ -1,5 +1,6 @@
 import os
 import json
+
 from dotenv import load_dotenv
 from google import genai
 
@@ -9,8 +10,10 @@ client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
+
 def evaluate_with_gemini(answer_text, scheme):
     print("Gemini evaluation start")
+
     prompt = f"""
 You are an expert exam evaluator.
 
@@ -50,22 +53,34 @@ Rules:
 - matched_points should contain points covered by the student.
 - missing_points should contain points not covered.
 - total_score must equal the sum of awarded_marks.
-- reasoning in around 10-15 words.
+- reasoning should be around 10-15 words.
 - percentage = (total_score / max_score) * 100.
 - Return ONLY JSON.
 """
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
 
-    text = response.text.strip()
+        text = response.text.strip()
 
-    text = text.replace("```json", "")
-    text = text.replace("```", "")
-    text = text.strip()
+        text = text.replace("```json", "")
+        text = text.replace("```", "")
+        text = text.strip()
 
-    result = json.loads(text)
-    print("Gemini evaluation end")
-    return result
+        result = json.loads(text)
+
+        print("Gemini evaluation end")
+        return result
+
+    except json.JSONDecodeError as e:
+        print("Gemini returned invalid JSON")
+        print(e)
+        raise
+
+    except Exception as e:
+        print("Gemini API failed")
+        print(e)
+        raise

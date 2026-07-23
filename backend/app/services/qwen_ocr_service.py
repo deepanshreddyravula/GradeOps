@@ -2,7 +2,16 @@ import torch
 from app.models.loader import model, processor, device
 from app.config import MAX_NEW_TOKENS
 
+print("QWEN OCR SERVICE LOADED")
+
 def extract_text_from_image(image):
+    print("QWEN OCR START")
+
+    MAX_DIM = 1024
+
+    if max(image.size) > MAX_DIM:
+        image.thumbnail((MAX_DIM, MAX_DIM))
+        
     conversation = [
         {
             "role": "user",

@@ -9,7 +9,7 @@ ocr = PaddleOCR(
 
 def extract_text_from_image(image):
 
-    print("OCR START")
+    print("PADDLE OCR START")
 
     MAX_DIM = 1000
 
@@ -19,7 +19,7 @@ def extract_text_from_image(image):
 
     result = ocr.predict(image_np)
 
-    print("OCR END")
+    print("PADDLE OCR END")
 
     lines = []
 

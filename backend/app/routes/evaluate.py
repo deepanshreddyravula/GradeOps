@@ -4,13 +4,19 @@ from app.config import UPLOAD_DIR
 from app.schemas.evaluation_schema import SchemeUploadResponse, EvaluationResponse
 from app.services.marking_scheme_service import upload_marking_scheme
 from app.services.evaluation_service import evaluate_answer_text
-from app.services.paddle_ocr_service import extract_text_from_image
 from app.services.submission_service import create_submission_record, create_evaluation_record
 from app.storage.scheme_store import get_scheme_by_exam_id
 from app.storage.student_store import get_student_by_student_id
 from app.utils.image_loader import load_image
 from app.utils.auth_guard import get_current_instructor
 from app.services.gemini_evaluator import evaluate_with_gemini
+from app.config import OCR_ENGINE
+
+if OCR_ENGINE == "qwen":
+    from app.services.qwen_ocr_service import extract_text_from_image
+else:
+    from app.services.paddle_ocr_service import extract_text_from_image
+    
 router = APIRouter()
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
@@ -39,7 +45,7 @@ async def grade_answer_sheet(
     if not scheme:
         raise HTTPException(status_code=404, detail="No marking scheme found for this exam")
 
-    student = get_student_by_student_id(student_id)
+    student = get_student_by_student_id(student_id,current_user["id"])
     if not student:
         raise HTTPException(status_code=404, detail="Student not found")
 

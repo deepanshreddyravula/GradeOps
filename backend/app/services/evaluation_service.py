@@ -50,6 +50,7 @@ def score_question(answer_text: str, q: dict):
     )
 
 def evaluate_answer_text(extracted_text: str, scheme: dict):
+    print("Local Evaluation Start")
     clean_text = normalize_text(extracted_text)
 
     results = []
@@ -70,7 +71,7 @@ def evaluate_answer_text(extracted_text: str, scheme: dict):
         if percentage >= 40
         else "Low alignment with marking scheme."
     )
-
+    print("Local Evaluation end")
     return {
         "extracted_text": clean_text,
         "total_score": round(total_score, 2),

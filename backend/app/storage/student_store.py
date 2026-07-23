@@ -8,8 +8,10 @@ students_collection = db.students
 
 def create_student(data: dict):
 
+    # Check duplicate student_id only for this instructor
     existing = students_collection.find_one({
-        "student_id": data["student_id"]
+        "student_id": data["student_id"],
+        "created_by": data["created_by"]
     })
 
     if existing:
@@ -30,10 +32,11 @@ def create_student(data: dict):
     return new_student
 
 
-def get_student_by_student_id(student_id: str):
+def get_student_by_student_id(student_id: str, user_id: str):
 
     student = students_collection.find_one({
-        "student_id": student_id
+        "student_id": student_id,
+        "created_by": user_id
     })
 
     if student:

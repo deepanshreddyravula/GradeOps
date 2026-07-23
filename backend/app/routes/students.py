@@ -22,7 +22,7 @@ def list_students(current_user: dict = Depends(get_current_instructor)):
 
 @router.get("/{student_id}", response_model=StudentResponse)
 def get_student(student_id: str, current_user: dict = Depends(get_current_instructor)):
-    student = get_student_record(student_id)
+    student = get_student_record(student_id,current_user["id"])   
     if not student:
         raise HTTPException(status_code=404, detail="Student not found")
     return student

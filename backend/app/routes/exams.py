@@ -22,7 +22,7 @@ def list_exams(current_user: dict = Depends(get_current_instructor)):
 
 @router.get("/{exam_id}", response_model=ExamResponse)
 def get_exam(exam_id: str, current_user: dict = Depends(get_current_instructor)):
-    exam = get_exam_record(exam_id)
+    exam = get_exam_record(exam_id,current_user["id"])
     if not exam:
         raise HTTPException(status_code=404, detail="Exam not found")
     return exam
